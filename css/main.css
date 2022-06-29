@@ -32,20 +32,6 @@ body {
     width: 1460px; }
   .header .d_flex {
     justify-content: space-between; }
-  .header nav ul {
-    display: flex; }
-    .header nav ul li {
-      margin-left: 16px;
-      margin-right: 16px; }
-      .header nav ul li a {
-        color: #FFFFFF;
-        transition: 0.2s; }
-        .header nav ul li a:hover {
-          color: #503E9D; }
-      .header nav ul li:first-child {
-        margin-left: 0; }
-      .header nav ul li:last-child {
-        margin-right: 0; }
 
 .btn {
   background-color: #FFFFFF;

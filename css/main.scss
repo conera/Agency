@@ -46,33 +46,33 @@ body {
   width: 100%;
   padding: 30px 0 0;
 
-  nav {
-    ul {
-      display: flex;
-
-      li {
-        a {
-          color: #FFFFFF;
-          transition: 0.2s;
-
-          &:hover {
-            color: #503E9D;
-          }
-        }
-
-        margin-left: 16px;
-        margin-right: 16px;
-
-        &:first-child {
-          margin-left: 0;
-        }
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-    }
-  }
+  //nav {
+  //  ul {
+  //    display: flex;
+  //
+  //    li {
+  //      a {
+  //        color: #FFFFFF;
+  //        transition: 0.2s;
+  //
+  //        &:hover {
+  //          color: #503E9D;
+  //        }
+  //      }
+  //
+  //      margin-left: 16px;
+  //      margin-right: 16px;
+  //
+  //      &:first-child {
+  //        margin-left: 0;
+  //      }
+  //
+  //      &:last-child {
+  //        margin-right: 0;
+  //      }
+  //    }
+  //  }
+  //}
 }
 
 .btn {
