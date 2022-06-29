@@ -1,8 +1,19 @@
 @media only screen and (max-width: 1024px) {
+  .menu-btn{
+    display: none;
+  }
 
 }
 
 @media only screen and (max-width: 992px) {
+  .menu-btn{
+    display: none;
+  }
+  //nav{
+  //  .nav-links{
+  //    opacity: 1;
+  //  }
+  //}
   .container {
     width: 290px;
     text-align: center;
@@ -130,6 +141,23 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    background-color: #0D0D0D;
+    z-index: 2;
+    padding: 6px 0 0;
+
+    img {
+      width: 150px;
+    }
+    a{
+      font-size: 0rem;
+    }
+  }
+  nav .menu-btn {
+    top: 3%;
+    display: initial;
+
+  }
   nav{
     transform: translateX(175%);
 
@@ -266,7 +294,33 @@
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 426px) {
+  .header {
+    background-color: #0D0D0D;
+    z-index: 2;
+    padding: 6px 0 0;
+
+    img {
+      width: 150px;
+    }
+    a{
+      font-size: 0rem;
+    }
+  }
+  nav .menu-btn {
+    top: 3%;
+    display: initial;
+
+  }
+  nav{
+    transform: translateX(86%);
+    .nav-links.fade-in {
+      transform: translateX(-12%);
+    }
+  }
+  nav.nav-open{
+    transform: translateX(37%);
+  }
   .container {
     width: 290px;
     text-align: center;
@@ -393,15 +447,33 @@
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
+  .header {
+    background-color: #0D0D0D;
+    z-index: 2;
+    padding: 6px 0 0;
+
+    img {
+      width: 150px;
+    }
+    a{
+      font-size: 0rem;
+    }
+  }
+  nav .menu-btn {
+    top: 3%;
+    display: initial;
+
+  }
+
   nav{
-    transform: translateX(66%);
+    transform: translateX(78%);
     .nav-links.fade-in {
-      transform: translateX(-9%);
+      transform: translateX(-16%);
     }
   }
   nav.nav-open{
-    transform: translateX(0%);
+    transform: translateX(28%);
   }
 
   .container {
@@ -531,10 +603,29 @@
 }
 
 @media only screen and (max-width: 360px) {
+  .header {
+    background-color: #0D0D0D;
+    z-index: 2;
+    padding: 6px 0 0;
+
+    img {
+      width: 150px;
+    }
+    a{
+      font-size: 0rem;
+    }
+  }
+  nav .menu-btn {
+    display: initial;
+
+  }
   nav{
     transform: translateX(66%);
     .nav-links.fade-in {
       transform: translateX(-9%);
+    }
+    .menu-btn{
+      top: 3%;
     }
   }
   nav.nav-open{
@@ -668,10 +759,14 @@
 }
 
 @media only screen and (max-width: 320px) {
+  nav .menu-btn {
+    display: initial;
+
+  }
   nav{
     transform: translateX(66%);
     .menu-btn{
-      top: 2%;
+      top: 3%;
     }
     .nav-links.fade-in {
       transform: translateX(-9%);
