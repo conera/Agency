@@ -509,6 +509,10 @@ background-color: rgba(80, 62, 157, 0.7);
   }
 
   nav {
+    overflow: initial;
+    height: initial;
+    width: initial;
+    position: initial;
     ul {
       display: flex;
 

@@ -313,20 +313,25 @@ body {
     margin-left: 0; }
   .footer .socials a:last-child {
     margin-right: 0; }
-  .footer nav ul {
-    display: flex; }
-    .footer nav ul li {
-      margin-left: 16px;
-      margin-right: 16px; }
-      .footer nav ul li a {
-        color: rgba(255, 255, 255, 0.8);
-        transition: 0.2s; }
-        .footer nav ul li a:hover {
-          color: #FFFFFF; }
-      .footer nav ul li:first-child {
-        margin-left: 0; }
-      .footer nav ul li:last-child {
-        margin-right: 0; }
+  .footer nav {
+    overflow: initial;
+    height: initial;
+    width: initial;
+    position: initial; }
+    .footer nav ul {
+      display: flex; }
+      .footer nav ul li {
+        margin-left: 16px;
+        margin-right: 16px; }
+        .footer nav ul li a {
+          color: rgba(255, 255, 255, 0.8);
+          transition: 0.2s; }
+          .footer nav ul li a:hover {
+            color: #FFFFFF; }
+        .footer nav ul li:first-child {
+          margin-left: 0; }
+        .footer nav ul li:last-child {
+          margin-right: 0; }
   .footer .under_footer {
     display: flex;
     justify-content: space-between;
